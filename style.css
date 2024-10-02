@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: rgb(41, 204, 163);
+}
+
+.main {
+    height: 55vh;
+    width: 55vh;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: blanchedalmond;
+    transform: rotateZ(180deg);
+}
+
+.box1 {
+    border-top: 1em solid rgba(255, 0, 0, 0.50);
+    border-right: 1em solid rgba(255, 0, 0, 0.342);
+    border-bottom: 1em solid red;
+    border-left: 1em solid  rgba(255, 0, 0, 0.75);
+    height: 20em;
+    width: 20em;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.box2 {
+    border: 2em solid rgba(128, 67, 67, 0.884);
+    /* border-right: 2em solid rgba(255, 230, 0, 0.342);
+    border-bottom: 2em solid rgb(255, 230, 0);
+    border-left: 2em solid  rgba(255, 230, 0, 0.75); */
+    position: absolute; 
+    background-color: rgba(255, 255, 112, 0.438);
+    height: 16em;
+    width: 16em;
+    border-radius: 50%;
+    border-style: dotted;
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: reverse;
+}
+
+.box3 {
+    border-top: 1em solid rgba(159, 170, 10, 0.466);
+    border-right: 1em solid rgb(76, 0, 255);
+    border-bottom: 1em solid rgba(159, 170, 10, 0.849);
+    border-left: 1em solid  rgb(76, 0, 255);
+    position: absolute; 
+    height: 14em;
+    width: 14em;
+    border-radius: 50%;
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+.box4 {
+    border-top: 1em solid rgb(119, 0, 255);
+    border-right: 1em solid rgb(119, 0, 255);
+    border-bottom: 1em solid rgba(119, 0, 255, 0.342);
+    border-left: 1em solid rgba(119, 0, 255, 0.342);
+    position: absolute; 
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    border-style: dashed;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: reverse;
+}
+
+
+.box5 {
+    border-top: 1em solid rgba(119, 0, 255, 0.50);
+    border-right: 1em solid rgba(119, 0, 255, 0.342);
+    border-bottom: 1em solid rgb(119, 0, 255);
+    border-left: 1em solid  rgba(119, 0, 255, 0.75);
+    position: absolute; 
+    height: 10em;
+    width: 10em;
+    background-color: darkblue;
+    border-radius: 50%;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+@keyframes text {
+    0% {transform: rotateZ(0deg);}
+    3%{transform: rotateZ(10deg);}
+    6%{transform: rotateZ(20deg);}
+    9%{transform: rotateZ(30deg);}
+    12%{transform: rotateZ(40deg);}
+    15% {transform: rotateZ(50deg);}
+    18% {transform: rotateZ(60deg);}
+    21% {transform: rotateZ(70deg);}
+    24% {transform: rotateZ(80deg);}
+    27% {transform: rotateZ(90deg);}
+    30% {transform: rotateZ(100deg);}
+    33% {transform: rotateZ(110deg);}
+    36% {transform: rotateZ(120deg);}
+    39% {transform: rotateZ(130deg);}
+    42% {transform: rotateZ(140deg);}
+    45% {transform: rotateZ(150deg);}
+    48% {transform: rotateZ(160deg);}
+    51% {transform: rotateZ(170deg);}
+    54% {transform: rotateZ(180deg);}
+    57% {transform: rotateZ(190deg);}
+    60% {transform: rotateZ(200deg);}
+    63% {transform: rotateZ(210deg);}
+    66% {transform: rotateZ(220deg);}
+    69% {transform: rotateZ(230deg);}
+    72% {transform: rotateZ(240deg);}
+    75% {transform: rotateZ(250deg);}
+    78% {transform: rotateZ(260deg);}
+    81% {transform: rotateZ(270deg);}
+    84% {transform: rotateZ(280deg);}
+    87% {transform: rotateZ(290deg);}
+    90% {transform: rotateZ(300deg);}
+    91% {transform: rotateZ(310deg);}
+    92% {transform: rotateZ(320deg);}
+    94% {transform: rotateZ(330deg);}
+    96% {transform: rotateZ(340deg);}
+    98% {transform: rotateZ(350deg);}
+    100% {transform: rotateZ(360deg);}
+}
