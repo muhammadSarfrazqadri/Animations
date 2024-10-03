@@ -2,9 +2,13 @@ body {
     margin: 0%;
     padding: 0%;
     position: absolute;
-    top: 20%;
-    left: 35%;
-    background-color: rgb(41, 204, 163);
+    top: 7%;
+    left: 20%;
+    background-color: rgb(245, 244, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
@@ -16,8 +20,7 @@ body {
     justify-content: center;
     position: relative;
     align-items: center;
-    border: 3px solid rgb(8, 0, 0);
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     transform: rotateZ(180deg);
 }
 
@@ -25,7 +28,7 @@ body {
     border-top: 1em solid rgba(255, 0, 0, 0.50);
     border-right: 1em solid rgba(255, 0, 0, 0.342);
     border-bottom: 1em solid red;
-    border-left: 1em solid  rgba(255, 0, 0, 0.75);
+    border-left: 1em solid rgba(255, 0, 0, 0.75);
     height: 20em;
     width: 20em;
     position: absolute;
@@ -41,7 +44,7 @@ body {
     /* border-right: 2em solid rgba(255, 230, 0, 0.342);
     border-bottom: 2em solid rgb(255, 230, 0);
     border-left: 2em solid  rgba(255, 230, 0, 0.75); */
-    position: absolute; 
+    position: absolute;
     background-color: rgba(255, 255, 112, 0.438);
     height: 16em;
     width: 16em;
@@ -58,8 +61,8 @@ body {
     border-top: 1em solid rgba(159, 170, 10, 0.466);
     border-right: 1em solid rgb(76, 0, 255);
     border-bottom: 1em solid rgba(159, 170, 10, 0.849);
-    border-left: 1em solid  rgb(76, 0, 255);
-    position: absolute; 
+    border-left: 1em solid rgb(76, 0, 255);
+    position: absolute;
     height: 14em;
     width: 14em;
     border-radius: 50%;
@@ -75,7 +78,7 @@ body {
     border-right: 1em solid rgb(119, 0, 255);
     border-bottom: 1em solid rgba(119, 0, 255, 0.342);
     border-left: 1em solid rgba(119, 0, 255, 0.342);
-    position: absolute; 
+    position: absolute;
     height: 12em;
     width: 12em;
     border-radius: 50%;
@@ -92,8 +95,8 @@ body {
     border-top: 1em solid rgba(119, 0, 255, 0.50);
     border-right: 1em solid rgba(119, 0, 255, 0.342);
     border-bottom: 1em solid rgb(119, 0, 255);
-    border-left: 1em solid  rgba(119, 0, 255, 0.75);
-    position: absolute; 
+    border-left: 1em solid rgba(119, 0, 255, 0.75);
+    position: absolute;
     height: 10em;
     width: 10em;
     background-color: darkblue;
@@ -106,19 +109,19 @@ body {
 
 
 .box6 {
-    height: 50vh;
+    height: 53vh;
     border: 3px solid rgb(255, 10, 10);
     position: absolute;
     animation-name: line;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    left: 2em;
+    left: 3em;
 }
 
 .box7 {
-    height: 50vh;
-    border: 3px solid rgb(255, 10, 10);
+    height: 53vh;
+    border: 3px solid rgb(75, 10, 255);
     position: absolute;
     animation-name: line;
     animation-duration: 2s;
@@ -129,61 +132,839 @@ body {
 
 
 .box8 {
-    height: 50vh;
-    border: 3px solid rgb(255, 10, 10);
+    height: 53vh;
+    border: 3px solid rgb(1, 206, 127);
     position: absolute;
     animation-name: line;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    left: 3em;
+    left: 3.5em;
 }
+
+
+.box9 {
+    height: 53vh;
+    border: 3px solid rgb(255, 10, 10);
+    position: absolute;
+    animation-name: line;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    right: 3em;
+}
+
+.box10 {
+    height: 53vh;
+    border: 3px solid rgb(75, 10, 255);
+    position: absolute;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    right: 4em;
+}
+
+
+.box11 {
+    height: 53vh;
+    border: 3px solid rgb(1, 206, 127);
+    position: absolute;
+    animation-name: line;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    right: 3.5em;
+}
+
+
+
+.box12 {
+    width: 53vh;
+    border: 3px solid rgb(255, 10, 10);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    top: 3em;
+}
+
+.box13 {
+    width: 53vh;
+    border: 3px solid rgb(75, 10, 255);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    top: 4em;
+}
+
+
+.box14 {
+    width: 53vh;
+    border: 3px solid rgb(1, 206, 127);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    top: 3.5em;
+}
+
+
+.box15 {
+    width: 53vh;
+    border: 3px solid rgb(255, 10, 10);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    bottom: 3em;
+}
+
+.box16 {
+    width: 53vh;
+    border: 3px solid rgb(75, 10, 255);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    bottom: 4em;
+}
+
+
+.box17 {
+    width: 53vh;
+    border: 3px solid rgb(1, 206, 127);
+    position: absolute;
+    animation-name: up-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    bottom: 3.5em;
+}
+
+
 
 
 @keyframes line {
-0% {height: 50vh;}
-50% {height: 0vh;}
-100% {height: 50vh;}
+    0% {
+        height: 53vh;
+    }
+
+    50% {
+        height: 0vh;
+    }
+
+    100% {
+        height: 53vh;
+    }
+}
+
+
+@keyframes up-down {
+    0% {
+        width: 53vh;
+    }
+
+    50% {
+        width: 0vh;
+    }
+
+    100% {
+        width: 53vh;
+    }
+}
+
+
+@keyframes text {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    3% {
+        transform: rotateZ(10deg);
+    }
+
+    6% {
+        transform: rotateZ(20deg);
+    }
+
+    9% {
+        transform: rotateZ(30deg);
+    }
+
+    12% {
+        transform: rotateZ(40deg);
+    }
+
+    15% {
+        transform: rotateZ(50deg);
+    }
+
+    18% {
+        transform: rotateZ(60deg);
+    }
+
+    21% {
+        transform: rotateZ(70deg);
+    }
+
+    24% {
+        transform: rotateZ(80deg);
+    }
+
+    27% {
+        transform: rotateZ(90deg);
+    }
+
+    30% {
+        transform: rotateZ(100deg);
+    }
+
+    33% {
+        transform: rotateZ(110deg);
+    }
+
+    36% {
+        transform: rotateZ(120deg);
+    }
+
+    39% {
+        transform: rotateZ(130deg);
+    }
+
+    42% {
+        transform: rotateZ(140deg);
+    }
+
+    45% {
+        transform: rotateZ(150deg);
+    }
+
+    48% {
+        transform: rotateZ(160deg);
+    }
+
+    51% {
+        transform: rotateZ(170deg);
+    }
+
+    54% {
+        transform: rotateZ(180deg);
+    }
+
+    57% {
+        transform: rotateZ(190deg);
+    }
+
+    60% {
+        transform: rotateZ(200deg);
+    }
+
+    63% {
+        transform: rotateZ(210deg);
+    }
+
+    66% {
+        transform: rotateZ(220deg);
+    }
+
+    69% {
+        transform: rotateZ(230deg);
+    }
+
+    72% {
+        transform: rotateZ(240deg);
+    }
+
+    75% {
+        transform: rotateZ(250deg);
+    }
+
+    78% {
+        transform: rotateZ(260deg);
+    }
+
+    81% {
+        transform: rotateZ(270deg);
+    }
+
+    84% {
+        transform: rotateZ(280deg);
+    }
+
+    87% {
+        transform: rotateZ(290deg);
+    }
+
+    90% {
+        transform: rotateZ(300deg);
+    }
+
+    91% {
+        transform: rotateZ(310deg);
+    }
+
+    92% {
+        transform: rotateZ(320deg);
+    }
+
+    94% {
+        transform: rotateZ(330deg);
+    }
+
+    96% {
+        transform: rotateZ(340deg);
+    }
+
+    98% {
+        transform: rotateZ(350deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
 }
 
 
 
-@keyframes text {
-    0% {transform: rotateZ(0deg);}
-    3%{transform: rotateZ(10deg);}
-    6%{transform: rotateZ(20deg);}
-    9%{transform: rotateZ(30deg);}
-    12%{transform: rotateZ(40deg);}
-    15% {transform: rotateZ(50deg);}
-    18% {transform: rotateZ(60deg);}
-    21% {transform: rotateZ(70deg);}
-    24% {transform: rotateZ(80deg);}
-    27% {transform: rotateZ(90deg);}
-    30% {transform: rotateZ(100deg);}
-    33% {transform: rotateZ(110deg);}
-    36% {transform: rotateZ(120deg);}
-    39% {transform: rotateZ(130deg);}
-    42% {transform: rotateZ(140deg);}
-    45% {transform: rotateZ(150deg);}
-    48% {transform: rotateZ(160deg);}
-    51% {transform: rotateZ(170deg);}
-    54% {transform: rotateZ(180deg);}
-    57% {transform: rotateZ(190deg);}
-    60% {transform: rotateZ(200deg);}
-    63% {transform: rotateZ(210deg);}
-    66% {transform: rotateZ(220deg);}
-    69% {transform: rotateZ(230deg);}
-    72% {transform: rotateZ(240deg);}
-    75% {transform: rotateZ(250deg);}
-    78% {transform: rotateZ(260deg);}
-    81% {transform: rotateZ(270deg);}
-    84% {transform: rotateZ(280deg);}
-    87% {transform: rotateZ(290deg);}
-    90% {transform: rotateZ(300deg);}
-    91% {transform: rotateZ(310deg);}
-    92% {transform: rotateZ(320deg);}
-    94% {transform: rotateZ(330deg);}
-    96% {transform: rotateZ(340deg);}
-    98% {transform: rotateZ(350deg);}
-    100% {transform: rotateZ(360deg);}
+/*  */
+
+
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    width: 40em;
+    color: rgb(0, 0, 0);
+    font-weight: 870;
+    /* -webkit-text-stroke: 2px rgb(17, 0, 255); */
+    background-color: rgb(187, 241, 85);
+    font-family: sans-serif;
+}
+
+#p1 {
+    animation-name: p1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p2 {
+    animation-name: p2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p3 {
+    animation-name: p3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p4 {
+    animation-name: p4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p5 {
+    animation-name: p5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p6 {
+    animation-name: p6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p7 {
+    animation-name: p7;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p8 {
+    animation-name: p8;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p9 {
+    animation-name: p9;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#p10 {
+    animation-name: p10;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+@keyframes p1 {
+
+    10% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 84);
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p2 {
+
+    10% {
+    }
+
+    20% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p3 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+@keyframes p4 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+@keyframes p5 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes p6 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p7 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p8 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p9 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@keyframes p10 {
+
+    10% {
+    }
+
+    20% {
+        color: rgb(255, 255, 255);
+    }
+
+    30% {
+        color: rgb(255, 255, 255);
+    }
+
+    40% {
+        color: rgb(255, 255, 255);
+    }
+
+    50% {
+        color: rgb(255, 255, 255);
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    70% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 255, 255);
+    }
+
+    90% {
+        color: rgb(255, 255, 255);
+    }
+
+    100% {
+        font-weight: 900;
+        -webkit-text-stroke: 2px rgb(17, 0, 255);
+        background-color: rgb(187, 241, 85);
+    }
 }
